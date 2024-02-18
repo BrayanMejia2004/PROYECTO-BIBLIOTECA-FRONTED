@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>   
+    <link rel="stylesheet" href="../style.css"> 
+    <title>LIBRARY - HOME</title>
+</head>
+
+<body>
+
+    <!--Home Sidebar-->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bxs-bank'></i>
+            <div class="logo-name"> LIBRARY </div>
+        </a>
+
+        <!--Menu-->
+        <ul class="side-menu">
+            <li class="active"><a href="Home.html"><i class='bx bx-home-alt-2'></i><span> Inicio </span> </a></li>
+            <li><a href="Vistas/Category/Category.html"><i class='bx bx-category-alt'></i> <span> Category </span> </a></li>
+            <li><a href="Vistas/Book/Book.html"><i class='bx bx-book-bookmark'></i> <span> Books </span> </a></li>
+            <li><a href="Vistas/Student/Student.html"><i class='bx bx-user'></i> <span> Students </span> </a></li>
+            <li><a href="#"><i class='bx bx-folder-plus'></i> <span> Loans </span> </a></li>
+            <li><a href="#"><i class='bx bx-calendar'></i> <span> Calendar </span> </a></li>
+        </ul>
+        <!--End of Menu-->
+
+        <!--Exit-->
+        <ul class="side-menu">
+            <li><a href="#" class="logout"><i class='bx bx-log-out-circle'></i> Logout</a></li>
+        </ul>
+        <!--End of Exit-->
+
+    </div>
+    <!--End of Sidebar-->
+
+
+    <!--Main Content-->
+    <div class="content">
+
+        <!--Home Navbar-->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <h1>TECHNOLOGY UNIVERSITY</h1>
+
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+
+            <p class="name">Hello, <span>Brayan</span> <br> Admin</p>
+
+            <a href="#" class="profile">
+                <img src="/image/logo.png">
+            </a>
+        </nav>
+        <!--End of Navbar-->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Statistics</h1>
+                </div>
+
+                <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download Data</span>
+                </a>
+            </div>
+
+            <!--Insights-->
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-book-reader'></i>
+                    <span class="info">
+                        <h3>
+                            500
+                        </h3>
+                        <p>Books</p>
+                    </span>
+                </li>
+
+                <li>
+                    <i class='bx bx-category'></i>
+                    <span class="info">
+                        <h3>
+                            200
+                        </h3>
+                        <p>Categories</p>
+                    </span>
+                </li>
+
+                <li>
+                    <i class='bx bxs-id-card'></i>
+                    <span class="info">
+                        <h3>
+                            150
+                        </h3>
+                        <p>Loans</p>
+                    </span>
+                </li>
+
+                <li>
+                    <i class='bx bx-rotate-right'></i>
+                    <span class="info">
+                        <h3>
+                            25
+                        </h3>
+                        <p>Return</p>
+                    </span>
+                </li>
+            </ul>
+            <!--End Insights-->
+
+            <!--Table data-->
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="headers">
+                        <i class='bx bx-receipt'></i>
+                        <h3>Book Orders</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search-alt-2'></i>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Name Books</th>
+                                <th>Date Loans</th>
+                                <th>Date Returns</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="/image/profile1.png">
+                                    <p>Brayan Mejia</p>
+                                </td>
+                                <td>
+                                    <p>Los 100 Cuentos Peregrinos</p>
+                                </td>
+                                <td>
+                                    10-10-2024
+                                </td>
+                                <td>
+                                    15-10-2024
+                                </td>
+                                <td>
+                                    <span class="status completed">Delivered</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="../../image/profile1.png">
+                                    <p>Saray Hernandez</p>
+                                </td>
+                                <td>
+                                    <p>Agente de la alegría</p>
+                                </td>
+                                <td>
+                                    2-06-2024
+                                </td>
+                                <td>
+                                    9-06-2024
+                                </td>
+                                <td>
+                                    <span class="status pending">Pending</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--End Table data-->
+        </main>
+    </div>
+    <!--End of Main Content-->
+
+    <script src="javascript/index.js"></script>
+</body>
+</html>
