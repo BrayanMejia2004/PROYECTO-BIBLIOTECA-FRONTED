@@ -34,7 +34,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Sidebar*/
+/*Style Sidebar*/
 .sidebar {
     position: fixed;
     top: 0;
@@ -184,7 +184,7 @@ body {
 /*End Sidebar*/
 
 
-/*Navbar*/
+/*Style Navbar*/
 .content {
     position: relative;
     width: 150%;
@@ -286,7 +286,7 @@ body {
 
 /*End Navbar*/
 
-/*Main*/
+/*Style Main*/
 .content main {
     width: 100%;
     padding: 36px 24px;
@@ -482,7 +482,7 @@ body {
 /*End Main*/
 
 
-/*Html Categorys*/
+/*Style html  Categorys*/
 .content main .header .left h1 {
     font-size: 36px;
     font-weight: 600;
@@ -617,7 +617,7 @@ body {
 /*End Html Categorys*/
 
 
-/*Html Students*/
+/*Style html Students*/
 .content main .content-students {
     display: grid;
     align-items: center;
@@ -690,6 +690,122 @@ body {
 }
 
 /*End Students*/
+
+/*Style html Books*/
+
+.content main .header-books {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    flex-wrap: wrap;
+}
+
+.content main .header-books .left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 16px;    
+    margin-bottom: 10px;
+    color: #181a1e;
+}
+
+.content main .header-books .buttons {
+    display: flex;
+    margin-left: 12%;  
+    margin-top: -18px;  
+}
+
+.content main .header-books .button {
+    height: 36px;
+    padding: 0 16px;    
+    border-radius: 36px;
+    background: rgba(1, 104, 201, 1.0);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    grid-gap: 10px;
+    font-weight: 500;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.content main .list-left { 
+    display: flex;   
+    margin-top: 10px;
+}
+
+.content main .list-left .dataBooks{
+    width: min-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.2);
+}
+
+.content main .list-left .dataBooks tbody td img {
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.2);
+}
+
+.content main .bottom-data .list-books {
+    flex-grow: 0.36;
+    flex-basis: 10px;    
+}
+
+.content main .bottom-data .list-books table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content main .bottom-data .list-books table th {
+    padding-bottom: 12px;
+    font-size: 15px;
+    text-align: left;
+    border-bottom: 1px solid #25252c;
+}
+
+.content main .bottom-data .list-books table td {
+    padding: 5px 0;
+    text-align: left;
+    font-size: 15px;
+}
+
+.content main .bottom-data .list-books table td p {
+    padding: 3px;    
+}
+
+.content main .bottom-data .list-books table td .literature {
+    background-color: rgb(255, 208, 36);
+    width: min-content;
+    height: min-content;   
+    border-radius: 5px;     
+}
+
+.content main .bottom-data .list-books table td .Children {
+    background-color: rgb(9, 207, 85);
+    width: min-content;
+    height: min-content;   
+    border-radius: 5px; 
+}
+
+.content main .bottom-data .list-books table td .Medicine {
+    background-color: rgb(9, 154, 207);
+    width: min-content;
+    height: min-content;   
+    border-radius: 5px; 
+}
+
+.content main .bottom-data .list-books table td .Science {
+    background-color: rgb(157, 50, 210);
+    width: min-content;
+    height: min-content;   
+    border-radius: 5px; 
+}
+
+/*End Books*/
 
 
 /*Responsive*/
