@@ -27,7 +27,6 @@ menubar.addEventListener('click', () => {
 });
 /* End code of sidebar*/
 
-
 window.addEventListener('resize', () => {
 
     if (window.innerWidth < 683) {
