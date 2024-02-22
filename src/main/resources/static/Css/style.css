@@ -72,12 +72,14 @@ body {
 }
 
 .sidebar .logo .logo-name {
+    cursor: pointer;
     font-size: 27px;
     margin-top: 1.8rem;
     margin-left: 1rem;
 }
 
 .sidebar .logo .bx {
+    cursor: pointer;
     min-width: 60px;
     display: flex;
     justify-content: center;
@@ -251,6 +253,7 @@ body {
 }
 
 .content a.notif .bx.bx-bell {
+    cursor: pointer;
     font-size: 30px;
     color: white;
 }
@@ -278,6 +281,7 @@ body {
 }
 
 .content nav .profile img {
+    cursor: pointer;
     width: 36px;
     height: 36px;
     object-fit: cover;
@@ -308,7 +312,8 @@ body {
     color: #181a1e;
 }
 
-.content main .header .report {
+.content main .header .report {   
+    cursor: pointer; 
     height: 36px;
     padding: 0 16px;
     border-radius: 36px;

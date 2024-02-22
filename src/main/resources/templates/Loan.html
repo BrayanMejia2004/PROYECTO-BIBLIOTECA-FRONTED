@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/Css/style.css}">
+    <title>LIBRAY - LOANS</title>
+</head>
+
+<body>
+
+    <!--Start Sidebar-->
+    <div class="sidebar">
+        <a class="logo">
+            <i class='bx bxs-bank'></i>
+            <div class="logo-name"> LIBRARY </div>
+        </a>
+
+        <!--Start Menu-->
+        <ul class="side-menu">
+            <li class="active"><a th:href="@{/principal}"><i class='bx bx-home-alt-2'></i><span> Inicio </span> </a>
+            </li>
+            <li><a th:href="@{/ViewCategory}"><i class='bx bx-category-alt'></i> <span> Category </span> </a></li>
+            <li><a th:href="@{/ViewBook}"><i class='bx bx-book-bookmark'></i> <span> Books </span> </a></li>
+            <li><a th:href="@{/ViewStudent}"><i class='bx bx-user'></i> <span> Students </span> </a></li>
+            <li><a th:href="@{/ViewLoan}"><i class='bx bx-folder-plus'></i> <span> Loans </span> </a></li>
+            <li><a th:href="@{/ViewCalendar}"><i class='bx bx-calendar'></i> <span> Calendar </span> </a></li>
+        </ul>
+        <!--End of Menu-->
+
+        <!--Exit-->
+        <ul class="side-menu">
+            <li><a class="logout"><i class='bx bx-log-out-circle'></i> Logout</a></li>
+        </ul>
+        <!--End of Exit-->
+
+    </div>
+    <!--End of Sidebar-->
+
+    <!--Main Content-->
+    <div class="content">
+
+        <!--Start Navbar-->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <h1>TECHNOLOGY UNIVERSITY</h1>
+
+            <a th:href="@{/principal}" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+
+            <p class="name">Hello, <span>Brayan</span> <br> Admin</p>
+
+            <a th:href="@{/principal}" class="profile">
+                <img th:src="@{/image/logo.png}">
+            </a>
+        </nav>
+        <!--End of Navbar-->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Loans</h1>
+                </div>
+            </div>
+        </main>
+</body>
+
+</html>
