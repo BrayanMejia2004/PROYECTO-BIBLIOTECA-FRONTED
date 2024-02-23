@@ -22,7 +22,8 @@
         <!--Start Menu-->
         <ul class="side-menu">
             <li><a th:href="@{/principal}"><i class='bx bx-home-alt-2'></i><span> Inicio </span> </a></li>
-            <li class="active"><a th:href="@{/ViewCategory}"><i class='bx bx-category-alt'></i><span>Category </span> </a></li>
+            <li class="active"><a th:href="@{/ViewCategory}"><i class='bx bx-category-alt'></i><span>Category </span>
+                </a></li>
             <li><a th:href="@{/ViewBook}"><i class='bx bx-book-bookmark'></i> <span> Books </span> </a></li>
             <li><a th:href="@{/ViewStudent}"><i class='bx bx-user'></i> <span> Students </span> </a></li>
             <li><a th:href="@{/ViewLoan}"><i class='bx bx-folder-plus'></i> <span> Loans </span> </a></li>
@@ -76,10 +77,14 @@
                         <h2>Register Category</h2>
                     </div>
 
-                    <input type="text" class="input-category" id="" placeholder="Name Category">
-                    <br>
-                    <input type="submit" class="button-category" value="Register">
-
+                    <form th:action="@{/ViewCategory}">
+                        <div class="custom_input">
+                            <i class='bx bxs-book-open'></i>
+                            <input class="input" type="text" placeholder="Name Category...">
+                        </div>
+                        <br>
+                        <input type="submit" class="button-category" value="Register">
+                    </form>
                 </div>
 
 
@@ -90,7 +95,7 @@
                             <h2>Quantity of Categories</h2>
                         </div>
                     </div>
-                    
+
                     <table>
                         <thead>
                             <tr>
@@ -169,7 +174,7 @@
                                 <td>
                                     150 Books
                                 </td>
-                            </tr>                                                
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -179,4 +184,5 @@
 
     <script th:src="@{/javascript/index.js}"></script>
 </body>
+
 </html>
