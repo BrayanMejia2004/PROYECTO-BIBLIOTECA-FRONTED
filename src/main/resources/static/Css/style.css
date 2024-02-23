@@ -34,6 +34,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /*Style Sidebar*/
 .sidebar {
     position: fixed;
@@ -182,7 +183,6 @@ body {
     margin-top: 90px;
     color: #ac0606;
 }
-
 /*End Sidebar*/
 
 
@@ -287,8 +287,8 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
-
 /*End Navbar*/
+
 
 /*Style Main*/
 .content main {
@@ -308,6 +308,7 @@ body {
     font-size: 36px;
     font-weight: 600;
     margin-left: 16px;
+    margin-right: 34rem;
     margin-bottom: 10px;
     color: #181a1e;
 }
@@ -484,20 +485,10 @@ body {
 .content main .bottom-data .orders table tr td .status.pending {
     background: #ac0606;
 }
-
 /* End Main */
 
 
 /* Style html  Categorys */
-.content main .header .left h1 {
-    font-size: 36px;
-    font-weight: 600;
-    margin-left: 16px;
-    margin-bottom: 0px;
-    margin-right: 34rem;
-    color: #181a1e;
-}
-
 .content main .insights-category {
     display: flex;
     margin-left: 30px;
@@ -600,6 +591,7 @@ body {
 .content main .insights-category .insights-right table {
     width: 100%;
     margin-top: 30px;
+    border-collapse: collapse;
 }
 
 .content main .insights-category .insights-right table thead tr th {
@@ -620,33 +612,25 @@ body {
 .content main .insights-category .insights-right table tbody tr td p {
     margin-top: 5px;
 }
-
 /* End Html Categorys */
 
-/* Style html Books */
 
-.content main .header-books {
+/* Style html Books */
+.content main .header {
     display: flex;
     align-items: center;
     grid-gap: 16px;
     flex-wrap: wrap;
 }
 
-.content main .header-books .left h1 {
-    font-size: 36px;
-    font-weight: 600;
-    margin-left: 16px;
-    margin-bottom: 10px;
-    color: #181a1e;
-}
-
-.content main .header-books .buttons {
+.content main .content-buttons .buttons {
     display: flex;
-    margin-left: 12%;
-    margin-top: -18px;
+    margin-top: -55px;    
+    margin-left: 400px;
+    margin-bottom: 32px;
 }
 
-.content main .header-books .button {
+.content main .content-buttons .button {
     height: 36px;
     padding: 0 16px;
     border-radius: 36px;
@@ -662,104 +646,42 @@ body {
 }
 
 .content main .list-left {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.content main .list-left .dataBooks {
-    width: 25%;
-    height: max-content;
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 18px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.2);
-    max-height: 429px;
-    overflow-y: auto;
-}
-
-.content main .list-left .dataBooks .list-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    transition: all 0.3s ease;
-}
-
-.content main .list-left .dataBooks .list-image li img {
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: 10px;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 80px;
 }
 
 .content main .bottom-data {
     margin-top: -5px;
-    margin-left: 40px;
+    margin-left: 40px;    
 }
 
-.content main .bottom-data .list-books {
-    flex-grow: 0.36;
-    flex-basis: 10px;
-}
-
-.content main .bottom-data .list-books table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.content main .bottom-data .list-books table tbody tr:hover {
-    background-color: #e9e8e8;
-}
-
-.content main .bottom-data .list-books table th {
-    padding-right: 20px;
-    padding-bottom: 12px;
-    font-size: 15px;
-    text-align: center;
-    border-bottom: 1px solid #25252c;
-}
-
-.content main .bottom-data .list-books table td {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.content main .bottom-data .list-books table td p {
-    padding: 3px;
-}
-
-.content main .bottom-data .list-books table td .literature {
+.content main .bottom-data table td .literature {
     background-color: rgb(255, 208, 36);
     width: min-content;
     height: min-content;
     border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.content main .bottom-data .list-books table td .Children {
+.content main .bottom-data table td .Children {
     background-color: rgb(9, 207, 85);
     width: min-content;
     height: min-content;
     border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.content main .bottom-data .list-books table td .Medicine {
+.content main .bottom-data table td .Medicine {
     background-color: rgb(9, 154, 207);
     width: min-content;
     height: min-content;
     border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-
-.content main .bottom-data .list-books table td .Science {
-    background-color: rgb(157, 50, 210);
-    width: min-content;
-    height: min-content;
-    border-radius: 5px;
-}
-
 /*End Books*/
 
 
@@ -834,12 +756,15 @@ body {
     padding-left: 10px;
     cursor: pointer;
 }
-
 /*End Students*/
 
 
 /*Responsive*/
 @media screen and (max-width: 683px) {
+
+    * {
+        transition: all 0.3s ease;
+    }
 
     .sidebar {
         width: 200px;
@@ -947,11 +872,36 @@ body {
         margin-top: 10px;
         margin-left: 30px;
     }
-
     /*End Responsive Categorys*/
+    
+
+    /*Reponsive Books*/
+    .content main .content-buttons {        
+        margin-top: 5px;        
+        margin-left: -250px;
+    }
+
+    .content main .content-buttons .buttons {        
+        width:  max-content;
+        margin-top: -50px;                             
+    }
+
+    .content main .list-left {        
+        margin-top: -20px;
+        padding-left: 20px;  
+        padding-right: 40px;
+    }
+
+    .content main .list-left .bottom-data .orders table tbody tr td{
+        text-align: center;
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    /*End Reponsive Books*/
+
 
     /*Responsive Students*/
-
     .content main .header .left {
         margin-left: -10px;
     }
@@ -999,7 +949,6 @@ body {
         font-size: 15;
         text-align: left;
     }
-
     /*End Responsive Students*/
 }
 
