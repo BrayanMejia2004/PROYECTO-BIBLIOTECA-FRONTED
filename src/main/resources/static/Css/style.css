@@ -705,13 +705,11 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 5px;
     padding-right: 5px;
 }
-
 /*End Books*/
-
 
 /*Start Register Book*/
 .content main .form-book {
-    display: flex;
+    display: block;
     position: static;
     align-items: center;
     text-align: center;    
@@ -722,7 +720,7 @@ content main .insights-category .register-left .input::placeholder {
     height: max-content;
     background-color: white;
     margin-left: 80px;
-    margin-top: 10px;        
+    margin-top: 2px;        
     padding: 30px 30px;
     text-align: center;
     align-content: center;
@@ -811,13 +809,6 @@ content main .insights-category .register-left .input::placeholder {
     margin-left: 38rem;
 }
 
-.content main .form-book .register-book form .button-grouop {
-    position: sticky;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
 .content main .form-book .register-book form input[type="submit"] {
     position: absolute;
     margin-top: 80px;
@@ -830,8 +821,49 @@ content main .insights-category .register-left .input::placeholder {
     cursor: pointer;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
 }
+
+.content main .form-book .content-image {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 45%;
+    max-width: 50%;
+    height: max-content;
+    margin-left: 65px;
+    overflow-x: auto;
+}
+
+.content main .form-book .content-image .list-image {
+    padding: 10px 10px;
+}
+
+.content main .form-book .content-image .list-image ul{
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content main .form-book .content-image .list-image ul li img{
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px;    
+    cursor: pointer;
+}
 /*End Register Book*/
 
+
+/*Start Update Book*/
+.content main .form-book .register-book h2 .bx.bx-upload {
+    font-size: 30px;
+    padding: 10px;
+    background: #a9e7ff;
+    color: #005eff;
+    -webkit-text-stroke: 1px black;
+    border-radius: 10px;
+}
+
+/*End Update Book*/
 
 /*Style html Students*/
 .content main .content-students {
@@ -904,7 +936,6 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 10px;
     cursor: pointer;
 }
-
 /*End Students*/
 
 
@@ -1021,7 +1052,6 @@ content main .insights-category .register-left .input::placeholder {
         margin-top: 10px;
         margin-left: 30px;
     }
-
     /*End Responsive Categorys*/
 
 
@@ -1047,9 +1077,73 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15px;
         padding-right: 10px;
     }
-
     /*End Reponsive Books*/
 
+    /*Star Reponsive Register Books*/
+    .content main .form-book {        
+        margin-top: 40px;
+        margin-left: -70px;        
+    }    
+
+    .content main .form-book .register-book {
+        width: 85%;
+    }
+
+    .content main .form-book .register-book form i {
+        font-size: 20px;
+    }
+
+    .content main .form-book .register-book form .bx.bx-list-ul {
+        position: absolute;  
+        margin-top: -65px;
+        margin-left: 10rem;
+    }
+    
+    .content main .form-book .register-book form .bx.bx-user-plus {
+        position: absolute;  
+        margin-top: -65px;
+        margin-left: 19.7rem;
+    }
+        
+    .content main .form-book .register-book form .bx.bx-arch {
+        position: absolute;  
+        margin-top: 40px;
+        margin-left: 10rem;
+    }
+    
+    .content main .form-book .register-book form .bx.bx-check {
+        position: absolute;  
+        margin-top: 40px;
+        margin-left: 38rem;
+    }
+    .content main .form-book .register-book form .select {
+        font-size: 13px;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .content main .form-book .register-book form .input::placeholder {
+        font-size: 10px;      
+        text-align: center;     
+    }
+
+    .content main .form-book .register-book form input[type="submit"] {                
+        position:  absolute;
+        margin-left: 20rem;
+    }
+
+    .content main .form-book .content-image {        
+        width: 85%;
+        margin-left: 90px;
+        max-width: 80%;
+        overflow-x: auto;
+    }
+
+    .content main .form-book .content-image .list-image {
+        width: max-content;
+    }
+  
+    /*End Reponsive Register Books*/
 
     /*Responsive Students*/
     .content main .header .left {

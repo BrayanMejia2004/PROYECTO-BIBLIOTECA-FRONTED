@@ -76,7 +76,7 @@
 
                     <form th:action="@{/ViewBook}">
                         <i class='bx bxs-dock-bottom'></i>
-                        <input class="input" type="text" placeholder="Name Book...">
+                        <input class="input" type="text" id="text" placeholder="Name Book...">
                         <i class='bx bx-list-ul'></i>
                         <select class="select" name="Category" id="Category">
                             <option value="Literature">Literature</option>
@@ -92,25 +92,27 @@
                         <br>
                         <input type="submit" value="Save">
                     </form>
-
                 </div>
 
-                <!-- <div class="content-image">
+                <div class="content-image">
                     <div class="list-image">
                         <ul>
-                            <li> <img th:src="@{/image/imagen-1.jpg}"> </li>
-                            <li> <img th:src="@{/image/imagen-2.png}"> </li>
-                            <li> <img th:src="@{/image/imagen-3.jpg}"> </li>
-                            <li> <img th:src="@{/image/imagen-4.jpg}"> </li>
-                            <li> <img th:src="@{/image/imagen-5.jpg}"> </li>
-                            <li> <img th:src="@{/image/imagen-6.jpg}"> </li>
+                            <li> <img th:src="@{/image/imagen-1.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-2.png}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-3.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-4.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-5.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-6.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-7.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-8.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-9.jpg}" alt="Logo"> </li>
+                            <li> <img th:src="@{/image/imagen-10.jpg}" alt="Logo"> </li>
                         </ul>
                     </div>
-                </div>-->
+                </div>
             </div>
         </main>
     </div>
-
 
     <script th:src="@{/javascript/index.js}"></script>
 </body>
