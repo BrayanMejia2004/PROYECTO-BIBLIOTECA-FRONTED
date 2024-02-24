@@ -71,25 +71,33 @@
 
 
             <div class="form-book">
-                <div class="register-book">
+                <div class="update-book">
 
                     <h2> <i class='bx bx-upload'></i> Update Books</h2>
 
                     <form th:action="@{/ViewBook}">
+
+                        <input type="image" th:src="@{image/imagen-1.jpg}" alt="Portada">                            
+
                         <i class='bx bxs-dock-bottom'></i>
                         <input class="input" type="text" value="La Peste Negra">
+
                         <i class='bx bx-list-ul'></i>
                         <select class="select" name="Category" id="Category">
                             <option value="Literature">Literature</option>
                             <option value="Children's">Children's</option>
                             <option value="Medicine">Medicine</option>
                         </select>
+
                         <i class='bx bx-user-plus'></i>
                         <input class="input" type="text" value="Don Quijote">
+
                         <i class='bx bx-hash'></i>
                         <input class="input" type="number" value="290">
+
                         <i class='bx bx-arch'></i>
                         <input class="input" type="text" value="English">
+                        
                         <br>
                         <input type="submit" value="Update">
                     </form>

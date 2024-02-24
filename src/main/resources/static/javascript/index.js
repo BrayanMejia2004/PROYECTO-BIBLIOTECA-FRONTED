@@ -37,3 +37,41 @@ window.addEventListener('resize', () => {
     }
 
 });
+
+/*Star Calendar*/
+
+
+let listElements = document.querySelectorAll('.list__button--click');
+
+listElements.forEach(listElements => {
+    listElements.addEventListener('click', () => {
+        listElements.classList.toggle('arrow');
+
+        let height = 0;
+        let menu = listElements.nextElementSibling;
+
+        if (menu.clientHeight == "0") {
+            height = menu.scrollHeight;
+        }
+        menu.style.height = `${height}px`;
+    })
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        events: {
+            /*url: '/calendario/api/prestamos',
+            method: 'GET',
+            failure: function () {
+                alert('Hubo un error al obtener los eventos.');
+            }*/
+        },
+        eventClick: function (info) {
+            alert('Evento: ' + info.event.title);
+        }
+    });
+    calendar.render();
+});
+/*End Calendar */
