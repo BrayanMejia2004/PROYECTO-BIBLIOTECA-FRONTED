@@ -1125,7 +1125,6 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 10px;
     cursor: pointer;
 }
-
 /*End Loans*/
 
 
@@ -1255,7 +1254,6 @@ content main .insights-category .register-left .input::placeholder {
         margin-top: 10px;
         margin-left: 30px;
     }
-
     /*End Responsive Categorys*/
 
 
@@ -1281,7 +1279,6 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15px;
         padding-right: 10px;
     }
-
     /*End Reponsive Books*/
 
 
@@ -1349,7 +1346,6 @@ content main .insights-category .register-left .input::placeholder {
     .content main .form-book .content-image .list-image {
         width: max-content;
     }
-
     /*End Reponsive Register Books*/
 
 
@@ -1404,7 +1400,6 @@ content main .insights-category .register-left .input::placeholder {
         margin-top: 21rem;
         margin-left: 9rem;
     }
-
     /*End Responsive Update Books*/
 
 
@@ -1456,11 +1451,10 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15;
         text-align: left;
     }
-
     /*End Responsive Students*/
 
-    /*Start Responsive Loans*/
 
+    /*Start Responsive Loans*/
     .content main .header .left {
         margin-left: -10px;
     }
@@ -1508,20 +1502,17 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15;
         text-align: left;
     }
-
     /*End Resposive Loans*/
 
-    /*Star Responsive Calendar*/
 
+    /*Star Responsive Calendar*/
     .content main .content-calendar {
         width: 90%;
         height: 80%;
         margin-top: 3rem;
         margin-left: 2rem;
     }
-
     /*End Responsive Calendar*/
 
 }
-
 /*End Responsive*/
