@@ -183,7 +183,6 @@ body {
     margin-top: 90px;
     color: #ac0606;
 }
-
 /*End Sidebar*/
 
 
@@ -288,7 +287,6 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
-
 /*End Navbar*/
 
 
@@ -487,7 +485,6 @@ body {
 .content main .bottom-data .orders table tr td .status.pending {
     background: #ac0606;
 }
-
 /* End Main */
 
 
@@ -634,7 +631,6 @@ content main .insights-category .register-left .input::placeholder {
 .content main .insights-category .insights-right table tbody tr td p {
     margin-top: 5px;
 }
-
 /* End Html Categorys */
 
 
@@ -706,6 +702,7 @@ content main .insights-category .register-left .input::placeholder {
     padding-right: 5px;
 }
 /*End Books*/
+
 
 /*Start Register Book*/
 .content main .form-book {
@@ -974,6 +971,7 @@ content main .insights-category .register-left .input::placeholder {
 }
 /*End Update Book*/
 
+
 /*Style html Students*/
 .content main .content-students {
     display: grid;
@@ -1046,6 +1044,81 @@ content main .insights-category .register-left .input::placeholder {
     cursor: pointer;
 }
 /*End Students*/
+
+/*Start Loans*/
+.content main .content-loans {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 0.2fr 0.2fr;
+    grid-gap: 2px;
+}
+
+.content main .content-loans .insights-loans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 15rem));
+    font-size: 20px;
+    margin: 5px 5px 0 5px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.content main .content-loans .insights-loans li i {
+    display: block;
+}
+
+.content main .content-loans .insights-loans li:nth-child(1) .bx {
+    color: #ac0606;
+    -webkit-text-stroke: 1px black;
+}
+
+.content main .content-loans .insights-loans li:nth-child(2) .bx {
+    color: #ffa600;
+    -webkit-text-stroke: 1px black;
+}
+
+.content main .content-loans .insights-loans li:nth-child(3) .bx {
+    color: #005eff;
+    -webkit-text-stroke: 1px black;
+}
+
+.content main .content-loans .insights-loans li:nth-child(4) .bx {
+    color: #9d00ff;
+    -webkit-text-stroke: 1px black;
+}
+
+.content main .content-loans .insights-loans li input,
+.content main .content-loans .insights-loans li select {
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: text;
+    border: none;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.content main .content-loans .insights-loans li input::placeholder {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content main .content-loans .insights-loans li button {
+    display: flex;
+    width: 20%;
+    border-radius: 36px;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    background: rgba(1, 104, 201, 1.0);
+    color: white;
+    margin-top: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+/*End Loans*/
+
 
 /*Star Calendar*/
 .content main .content-calendar {
@@ -1198,6 +1271,7 @@ content main .insights-category .register-left .input::placeholder {
         padding-right: 10px;
     }
     /*End Reponsive Books*/
+
 
     /*Star Reponsive Register Books*/
     .content main .form-book {        
@@ -1368,5 +1442,17 @@ content main .insights-category .register-left .input::placeholder {
         text-align: left;
     }
     /*End Responsive Students*/
+
+    /*Star Responsive Calendar*/
+
+    .content main .content-calendar {
+        width: 90%;
+        height: 80%;
+        margin-top: 3rem;
+        margin-left: 2rem;        
+    }
+
+    /*End Responsive Calendar*/
+
 }
 /*End Responsive*/
