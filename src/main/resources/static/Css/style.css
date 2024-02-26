@@ -183,6 +183,7 @@ body {
     margin-top: 90px;
     color: #ac0606;
 }
+
 /*End Sidebar*/
 
 
@@ -287,6 +288,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+
 /*End Navbar*/
 
 
@@ -485,6 +487,7 @@ body {
 .content main .bottom-data .orders table tr td .status.pending {
     background: #ac0606;
 }
+
 /* End Main */
 
 
@@ -631,6 +634,7 @@ content main .insights-category .register-left .input::placeholder {
 .content main .insights-category .insights-right table tbody tr td p {
     margin-top: 5px;
 }
+
 /* End Html Categorys */
 
 
@@ -701,6 +705,7 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 /*End Books*/
 
 
@@ -709,7 +714,7 @@ content main .insights-category .register-left .input::placeholder {
     display: block;
     position: static;
     align-items: center;
-    text-align: center;    
+    text-align: center;
 }
 
 .content main .form-book .register-book {
@@ -717,7 +722,7 @@ content main .insights-category .register-left .input::placeholder {
     height: max-content;
     background-color: white;
     margin-left: 80px;
-    margin-top: 2px;        
+    margin-top: 2px;
     padding: 30px 30px;
     text-align: center;
     align-content: center;
@@ -771,37 +776,37 @@ content main .insights-category .register-left .input::placeholder {
 }
 
 .content main .form-book .register-book form .bx.bxs-dock-bottom {
-    position: absolute;  
-    margin-top: -65px;  
+    position: absolute;
+    margin-top: -65px;
     margin-left: 0.5rem;
 }
 
 .content main .form-book .register-book form .bx.bx-list-ul {
-    position: absolute;  
+    position: absolute;
     margin-top: -65px;
     margin-left: 17rem;
 }
 
 .content main .form-book .register-book form .bx.bx-user-plus {
-    position: absolute;  
+    position: absolute;
     margin-top: -65px;
     margin-left: 33.5rem;
 }
 
 .content main .form-book .register-book form .bx.bx-hash {
-    position: absolute;  
+    position: absolute;
     margin-top: 40px;
     margin-left: 0.5rem;
 }
 
 .content main .form-book .register-book form .bx.bx-arch {
-    position: absolute;  
+    position: absolute;
     margin-top: 40px;
     margin-left: 17rem;
 }
 
 .content main .form-book .register-book form .bx.bx-check {
-    position: absolute;  
+    position: absolute;
     margin-top: 40px;
     margin-left: 38rem;
 }
@@ -809,12 +814,12 @@ content main .insights-category .register-left .input::placeholder {
 .content main .form-book .register-book form input[type="submit"] {
     position: absolute;
     margin-top: 80px;
-    margin-left: 600px;   
+    margin-left: 600px;
     padding: 5px 30px;
     font-size: 15px;
     border: none;
     background-color: #ffa600;
-    border-radius: 10px;    
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
 }
@@ -834,20 +839,21 @@ content main .insights-category .register-left .input::placeholder {
     padding: 10px 10px;
 }
 
-.content main .form-book .content-image .list-image ul{
+.content main .form-book .content-image .list-image ul {
     width: max-content;
-    display: flex;        
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.content main .form-book .content-image .list-image ul li img{
+.content main .form-book .content-image .list-image ul li img {
     width: 100px;
     border-radius: 15px;
-    padding: 10px;    
+    padding: 10px;
     cursor: pointer;
 }
+
 /*End Register Book*/
 
 
@@ -856,7 +862,7 @@ content main .insights-category .register-left .input::placeholder {
     display: block;
     position: static;
     align-items: center;
-    text-align: center;    
+    text-align: center;
 }
 
 .content main .form-book .update-book {
@@ -864,7 +870,7 @@ content main .insights-category .register-left .input::placeholder {
     height: max-content;
     background-color: white;
     margin-left: 80px;
-    margin-top: 20px;        
+    margin-top: 20px;
     padding: 30px 30px;
     text-align: center;
     align-content: center;
@@ -873,9 +879,9 @@ content main .insights-category .register-left .input::placeholder {
 }
 
 .content main .form-book .update-book h2 {
-    margin-top: -10px;    
+    margin-top: -10px;
     margin-bottom: 20px;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 .content main .form-book .update-book h2 .bx.bx-upload {
@@ -888,13 +894,13 @@ content main .insights-category .register-left .input::placeholder {
     margin-right: 15px;
 }
 
-.content main .form-book .update-book form input[type="image"] {    
+.content main .form-book .update-book form input[type="image"] {
     position: static;
-    width: 120px; 
+    width: 120px;
     height: 180px;
     margin-left: 50px;
-    margin-bottom: 20px; 
-    border-radius: 10px;  
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .content main .form-book .update-book form {
@@ -928,31 +934,31 @@ content main .insights-category .register-left .input::placeholder {
 }
 
 .content main .form-book .update-book form .bx.bxs-dock-bottom {
-    position: absolute;  
-    margin-top: -85px;  
+    position: absolute;
+    margin-top: -85px;
     margin-left: 17.5rem;
 }
 
 .content main .form-book .update-book form .bx.bx-list-ul {
-    position: absolute;  
+    position: absolute;
     margin-top: -85px;
     margin-left: 34rem;
 }
 
 .content main .form-book .update-book form .bx.bx-user-plus {
-    position: absolute;  
+    position: absolute;
     margin-top: 165px;
     margin-left: 1rem;
 }
 
 .content main .form-book .update-book form .bx.bx-hash {
-    position: absolute;  
+    position: absolute;
     margin-top: 165px;
     margin-left: 17.5rem;
 }
 
 .content main .form-book .update-book form .bx.bx-arch {
-    position: absolute;  
+    position: absolute;
     margin-top: 165px;
     margin-left: 34rem;
 }
@@ -960,15 +966,16 @@ content main .insights-category .register-left .input::placeholder {
 .content main .form-book .update-book form input[type="submit"] {
     position: absolute;
     margin-top: 275px;
-    margin-left: 690px;   
+    margin-left: 690px;
     padding: 5px 30px;
     font-size: 15px;
     border: none;
     background-color: #ffa600;
-    border-radius: 10px;    
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
 }
+
 /*End Update Book*/
 
 
@@ -1043,6 +1050,7 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 10px;
     cursor: pointer;
 }
+
 /*End Students*/
 
 /*Start Loans*/
@@ -1117,12 +1125,13 @@ content main .insights-category .register-left .input::placeholder {
     padding-left: 10px;
     cursor: pointer;
 }
+
 /*End Loans*/
 
 
 /*Star Calendar*/
 .content main .content-calendar {
-    width: 30%;    
+    width: 30%;
     margin-top: -60px;
     margin-left: 290px;
     background-color: white;
@@ -1130,6 +1139,7 @@ content main .insights-category .register-left .input::placeholder {
     padding: 10px 20px;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
 }
+
 /*End Calendar*/
 
 /*Responsive*/
@@ -1245,6 +1255,7 @@ content main .insights-category .register-left .input::placeholder {
         margin-top: 10px;
         margin-left: 30px;
     }
+
     /*End Responsive Categorys*/
 
 
@@ -1270,14 +1281,15 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15px;
         padding-right: 10px;
     }
+
     /*End Reponsive Books*/
 
 
     /*Star Reponsive Register Books*/
-    .content main .form-book {        
+    .content main .form-book {
         margin-top: 40px;
-        margin-left: -70px;        
-    }    
+        margin-left: -70px;
+    }
 
     .content main .form-book .register-book {
         width: 85%;
@@ -1288,28 +1300,29 @@ content main .insights-category .register-left .input::placeholder {
     }
 
     .content main .form-book .register-book form .bx.bx-list-ul {
-        position: absolute;  
+        position: absolute;
         margin-top: -65px;
         margin-left: 10rem;
     }
-    
+
     .content main .form-book .register-book form .bx.bx-user-plus {
-        position: absolute;  
+        position: absolute;
         margin-top: -65px;
         margin-left: 19.7rem;
     }
-        
+
     .content main .form-book .register-book form .bx.bx-arch {
-        position: absolute;  
+        position: absolute;
         margin-top: 40px;
         margin-left: 10rem;
     }
-    
+
     .content main .form-book .register-book form .bx.bx-check {
-        position: absolute;  
+        position: absolute;
         margin-top: 40px;
         margin-left: 38rem;
     }
+
     .content main .form-book .register-book form .select {
         font-size: 13px;
         text-align: center;
@@ -1317,16 +1330,16 @@ content main .insights-category .register-left .input::placeholder {
     }
 
     .content main .form-book .register-book form .input::placeholder {
-        font-size: 10px;      
-        text-align: center;           
+        font-size: 10px;
+        text-align: center;
     }
 
-    .content main .form-book .register-book form input[type="submit"] {                
-        position:  absolute;
+    .content main .form-book .register-book form input[type="submit"] {
+        position: absolute;
         margin-left: 20rem;
     }
 
-    .content main .form-book .content-image {        
+    .content main .form-book .content-image {
         width: 85%;
         margin-left: 90px;
         max-width: 80%;
@@ -1336,10 +1349,11 @@ content main .insights-category .register-left .input::placeholder {
     .content main .form-book .content-image .list-image {
         width: max-content;
     }
+
     /*End Reponsive Register Books*/
 
 
-    /*Start Responsive Update Books*/   
+    /*Start Responsive Update Books*/
     .content main .form-book .update-book {
         width: 85%;
         height: 80%;
@@ -1351,45 +1365,46 @@ content main .insights-category .register-left .input::placeholder {
     }
 
     .content main .form-book .update-book form i {
-        font-size: 23px; 
+        font-size: 23px;
         margin-bottom: 5px;
     }
 
-    .content main .form-book .update-book form .bx.bxs-dock-bottom {  
-        position: absolute;       
-        margin-top: -8.5rem;             
+    .content main .form-book .update-book form .bx.bxs-dock-bottom {
+        position: absolute;
+        margin-top: -8.5rem;
         margin-left: 14.5rem;
     }
 
-    .content main .form-book .update-book form .bx.bx-list-ul {  
-        position: absolute;       
-        margin-top: 7rem;             
+    .content main .form-book .update-book form .bx.bx-list-ul {
+        position: absolute;
+        margin-top: 7rem;
         margin-left: 0.8rem;
     }
 
-    .content main .form-book .update-book form .bx.bx-user-plus {  
+    .content main .form-book .update-book form .bx.bx-user-plus {
         position: absolute;
-        margin-top: 7rem;        
+        margin-top: 7rem;
         margin-left: 15rem;
     }
 
-    .content main .form-book .update-book form .bx.bx-hash {  
+    .content main .form-book .update-book form .bx.bx-hash {
         position: absolute;
-        margin-top: 13.8rem;        
+        margin-top: 13.8rem;
         margin-left: 0.8rem;
     }
 
-    .content main .form-book .update-book form .bx.bx-arch {  
+    .content main .form-book .update-book form .bx.bx-arch {
         position: absolute;
-        margin-top: 13.8rem;        
+        margin-top: 13.8rem;
         margin-left: 15rem;
     }
 
-    .content main .form-book .update-book form input[type="submit"] {                
-        position:  absolute;
+    .content main .form-book .update-book form input[type="submit"] {
+        position: absolute;
         margin-top: 21rem;
         margin-left: 9rem;
     }
+
     /*End Responsive Update Books*/
 
 
@@ -1441,7 +1456,60 @@ content main .insights-category .register-left .input::placeholder {
         font-size: 15;
         text-align: left;
     }
+
     /*End Responsive Students*/
+
+    /*Start Responsive Loans*/
+
+    .content main .header .left {
+        margin-left: -10px;
+    }
+
+    .content main .content-loans {
+        display: contents;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .content main .content-loans .insights-loans {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .content main .content-loans .insights-loans li span {
+        font-size: 15px;
+    }
+
+    .content main .content-loans .insights-loans li:nth-child(3) .bx {
+        margin-top: 20px;
+    }
+
+    .content main .content-loans .insights-loans li:nth-child(4) .bx {
+        margin-top: 20px;
+    }
+
+    .content main .content-loans .insights-loans li:nth-child(5) {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content main .content-loans .insights-loans li button {
+        margin-top: 15px;
+        margin-left: 240px;
+        padding-right: 10px;
+    }
+
+    .content main .bottom-data .orders table thead tr th {
+        padding-left: 10px;
+        font-size: 15;
+        text-align: left;
+    }
+
+    /*End Resposive Loans*/
 
     /*Star Responsive Calendar*/
 
@@ -1449,10 +1517,11 @@ content main .insights-category .register-left .input::placeholder {
         width: 90%;
         height: 80%;
         margin-top: 3rem;
-        margin-left: 2rem;        
+        margin-left: 2rem;
     }
 
     /*End Responsive Calendar*/
 
 }
+
 /*End Responsive*/

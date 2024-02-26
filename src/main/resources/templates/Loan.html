@@ -20,12 +20,12 @@
 
         <!--Start Menu-->
         <ul class="side-menu">
-            <li class="active"><a th:href="@{/principal}"><i class='bx bx-home-alt-2'></i><span> Inicio </span> </a>
+            <li><a th:href="@{/principal}"><i class='bx bx-home-alt-2'></i><span> Inicio </span> </a>
             </li>
             <li><a th:href="@{/ViewCategory}"><i class='bx bx-category-alt'></i> <span> Category </span> </a></li>
             <li><a th:href="@{/ViewBook}"><i class='bx bx-book-bookmark'></i> <span> Books </span> </a></li>
             <li><a th:href="@{/ViewStudent}"><i class='bx bx-user'></i> <span> Students </span> </a></li>
-            <li><a th:href="@{/ViewLoan}"><i class='bx bx-folder-plus'></i> <span> Loans </span> </a></li>
+            <li class="active"><a th:href="@{/ViewLoan}"><i class='bx bx-folder-plus'></i> <span> Loans </span> </a></li>
             <li><a th:href="@{/ViewCalendar}"><i class='bx bx-calendar'></i> <span> Calendar </span> </a></li>
         </ul>
         <!--End of Menu-->
@@ -91,8 +91,8 @@
                     </li>
 
                     <li>
-                        <i class='bx bx-calendar-minus'></i><span>Date Loans</span>
-                        <input type="date" placeholder="Date loans..">
+                        <i class='bx bx-calendar-minus'></i><span>Date of Loan</span>
+                        <input type="date" placeholder="Date loan..">
                     </li>
 
                     <li>
