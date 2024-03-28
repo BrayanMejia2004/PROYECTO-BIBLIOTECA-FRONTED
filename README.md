@@ -11,4 +11,4 @@ Este proyecto cumple con las funciones:
 * Listar, Registrar y Eliminar un Prestamo
 * Observar un calendario con los prestamos activos
   
-BY Brayan Mejia - Tecnologo en desarrollo de sistemas informaticos
+Desarrollado por Brayan Mejia - Tecnólogo en desarrollo de sistemas informaticos.
